@@ -5,19 +5,22 @@
 In this section, describe the analysis you completed for the machine learning models used in this Challenge. This might include:
 
 * Explain the purpose of the analysis.
-  The purpose of the analysis is to use historical data to predict the credit worthiness of a customer and predict which customer could potentially end-up defaulting from their loan(s).
+  
+  --> The purpose of the analysis is to use historical data to predict the credit worthiness of a customer and predict which customer could potentially end-up defaulting from their loan(s).
   
 * Explain what financial information the data was on, and what you needed to predict.
-  The data available captures the borrowers income, details about their debt from total loan , debt to income ratio, and how has their past been in terms of repaying back the loan, also if they have defaulted on their loan(s).
+  
+  --> The data available captures the borrowers income, details about their debt from total loan , debt to income ratio, and how has their past been in terms of repaying back the loan, also if they have defaulted on their loan(s).
   
 * Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
-  We are trying to predict the 'loan status' variable i.e. is the borrower likely to repay ot loan or default on the repayment.
+  
+  --> We are trying to predict the 'loan status' variable i.e. is the borrower likely to repay ot loan or default on the repayment.
   
 * Describe the stages of the machine learning process you went through as part of this analysis.
-  We followed the basic stages of Model - Fit - Predict using Logistics Regression model. Followed by measuring the accuracy of our prediction. Since the data was imbalanced with small no. of bad-loans in the dataset we Oversampled using RandomOverSampler and repeated the Model - Fit - Predict steps using over_sampled data. 
+  --> We followed the basic stages of Model - Fit - Predict using Logistics Regression model. Followed by measuring the accuracy of our prediction. Since the data was imbalanced with small no. of bad-loans in the dataset we Oversampled using RandomOverSampler and repeated the Model - Fit - Predict steps using over_sampled data. 
   
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
-  As shared above we used Logistics Regression model since this was a binary result type of analysis to predict the quality of loan. The data set represented a small no. of records for bad loans and using Random Over Sampling method we addressed the imbalanced data challenge.
+  --> As shared above we used Logistics Regression model since this was a binary result type of analysis to predict the quality of loan. The data set represented a small no. of records for bad loans and using Random Over Sampling method we addressed the imbalanced data challenge.
 
 ## Results
 
@@ -45,3 +48,4 @@ Summarize the results of the machine learning models, and include a recommendati
   I recommend the Logistics Regression model using random oversampling to improve the detection of bad borrowers.
   
 If you do not recommend any of the models, please justify your reasoning.
+ I recommend the Logistics Regression model using random oversampling to improve the detection of bad borrowers.
